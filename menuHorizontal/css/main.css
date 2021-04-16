@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    /* outline: 1px solid red; */
+    background-color: black;
+}
+
+ul {
+    /* outline: 1px solid yellow; */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    /* outline: 1px solid blue; */
+    width: 100px;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+}
+
+img {
+    max-width: 660px;
+    margin-top: 30px;
+}
+
+a {
+    /* outline: 1px solid black; */
+    text-decoration: none;
+    display: block;
+    color: #fff;
+}
+
+a:hover {
+    background-color: #03A9F4;
+    color: #E91E63;
+}
